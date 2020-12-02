@@ -23,9 +23,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 //Route::resource('/person', 'PersonController');
 
 Route::prefix('v1')->group(function(){
-   Route::resource('/person', 'Api\v1\PersonController');
+   Route::resource('/person', 'Api\v1\PersonController')->only(['index', 'show', 'update', 'destroy']);
 });
 
 Route::prefix('v2')->group(function(){
-    Route::resource('/person', 'Api\v2\PersonController');
+    Route::resource('/person', 'Api\v2\PersonController')->only(['index', 'show', 'update', 'destroy']);
 });

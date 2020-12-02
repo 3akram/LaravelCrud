@@ -11,7 +11,6 @@ use Illuminate\Http\Request;
 
 class PersonController extends Controller
 {
-
     /**
      * @return PersonResourceCollection
      */
