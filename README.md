@@ -1,7 +1,7 @@
 
-## About This Repo
+## How to make REST Api using Laravel
 
-A whole Crud Operation for Laravel Project with Api Versioning.
+This is a simple project to describe how to create a RESTful Api using laravel including API versioning and creating fake data using factories and database seeders.
 
 ## Installation Steps
 To Use it kindly follow these steps:-
@@ -25,3 +25,4 @@ To Use it kindly follow these steps:-
     - php artisan ser
 
 
+### Happy Hacking...
